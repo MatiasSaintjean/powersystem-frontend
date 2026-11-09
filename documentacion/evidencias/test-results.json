@@ -1,0 +1,453 @@
+{
+  "date": "2026-11-09T20:17:19.424Z",
+  "result": {
+    "success": 55,
+    "failed": 0,
+    "skipped": 0,
+    "error": false,
+    "disconnected": false,
+    "exitCode": 0
+  },
+  "cases": [
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "crea seis equipos al abrir un almacenamiento vacío",
+      "success": true,
+      "skipped": false,
+      "timeMs": 3,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "conserva datos entre instancias del servicio",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "informa datos corruptos sin sobrescribirlos",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "normaliza usuario y no copia la clave a sesión",
+      "success": true,
+      "skipped": false,
+      "timeMs": 0,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "rechaza credenciales inválidas",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "bloquea tras cinco intentos y permite entrar al vencer el plazo",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "caduca la sesión a los treinta minutos",
+      "success": true,
+      "skipped": false,
+      "timeMs": 0,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "cerrar sesión conserva el carrito",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "impide CRUD a un cliente",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "impide comprar como visitante",
+      "success": true,
+      "skipped": false,
+      "timeMs": 0,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "acumula cantidades sin descontar stock antes de confirmar",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "rechaza cantidades superiores al stock y fraccionarias",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "rechaza agregar equipos agotados",
+      "success": true,
+      "skipped": false,
+      "timeMs": 0,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "quita un ítem del carrito",
+      "success": true,
+      "skipped": false,
+      "timeMs": 2,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "valida duración entera entre uno y 365",
+      "success": true,
+      "skipped": false,
+      "timeMs": 0,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "calcula dos equipos por 15000 durante tres días como 90000",
+      "success": true,
+      "skipped": false,
+      "timeMs": 2,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "confirma, descuenta stock y vacía el carrito",
+      "success": true,
+      "skipped": false,
+      "timeMs": 0,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "un segundo envío no duplica el arriendo",
+      "success": true,
+      "skipped": false,
+      "timeMs": 0,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "pago rechazado no cambia stock, historial ni carrito",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "revalida stock modificado antes de comprar",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "impide comprar un producto retirado",
+      "success": true,
+      "skipped": false,
+      "timeMs": 0,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "separa carritos entre usuarios",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "crea, edita y elimina un equipo",
+      "success": true,
+      "skipped": false,
+      "timeMs": 0,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "rechaza código duplicado y precio negativo",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "rechaza descuento fuera de rango e imagen externa",
+      "success": true,
+      "skipped": false,
+      "timeMs": 0,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "conserva precio histórico después de editar el catálogo",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "devuelve stock una sola vez",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "devolver no recrea productos eliminados",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "aplica descuento al precio efectivo",
+      "success": true,
+      "skipped": false,
+      "timeMs": 0,
+      "log": []
+    },
+    {
+      "suite": "Datos y reglas de arriendo",
+      "name": "valida contacto, entrega y consentimiento",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "tarjeta muestra nombre, precio y props",
+      "success": true,
+      "skipped": false,
+      "timeMs": 70,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "clic llama callback con identificador",
+      "success": true,
+      "skipped": false,
+      "timeMs": 7,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "equipo agotado deshabilita la acción",
+      "success": true,
+      "skipped": false,
+      "timeMs": 3,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "lista renderiza todos los elementos",
+      "success": true,
+      "skipped": false,
+      "timeMs": 24,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "mensaje de error solo aparece si existe texto",
+      "success": true,
+      "skipped": false,
+      "timeMs": 4,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "React presenta contenido HTML ingresado como texto",
+      "success": true,
+      "skipped": false,
+      "timeMs": 2,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "checkout precarga datos recibidos en props",
+      "success": true,
+      "skipped": false,
+      "timeMs": 6,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "checkout actualiza estado al escribir y envía valores al callback",
+      "success": true,
+      "skipped": false,
+      "timeMs": 21,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "checkout muestra errores del servicio simulado",
+      "success": true,
+      "skipped": false,
+      "timeMs": 9,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "formulario de producto convierte números y preserva cambios",
+      "success": true,
+      "skipped": false,
+      "timeMs": 8,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "catálogo filtra al escribir sin recargar la página",
+      "success": true,
+      "skipped": false,
+      "timeMs": 22,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "catálogo muestra estado vacío sin coincidencias",
+      "success": true,
+      "skipped": false,
+      "timeMs": 8,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "ofertas solo muestra productos con descuento",
+      "success": true,
+      "skipped": false,
+      "timeMs": 10,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "carrito presenta cálculo y permite quitar un producto",
+      "success": true,
+      "skipped": false,
+      "timeMs": 6,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "historial de otro usuario no muestra pedidos ajenos",
+      "success": true,
+      "skipped": false,
+      "timeMs": 2,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "administrador ve pedidos y puede confirmar devolución",
+      "success": true,
+      "skipped": false,
+      "timeMs": 12,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "administración abre y cancela formulario de creación",
+      "success": true,
+      "skipped": false,
+      "timeMs": 36,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "login informa credenciales inválidas",
+      "success": true,
+      "skipped": false,
+      "timeMs": 24,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "ruta administrativa rechaza a visitante",
+      "success": true,
+      "skipped": false,
+      "timeMs": 22,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "navegación móvil cambia el estado aria expanded",
+      "success": true,
+      "skipped": false,
+      "timeMs": 22,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "ruta inexistente ofrece recuperación",
+      "success": true,
+      "skipped": false,
+      "timeMs": 4,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "detalle muestra el equipo correspondiente",
+      "success": true,
+      "skipped": false,
+      "timeMs": 4,
+      "log": []
+    },
+    {
+      "suite": "Componentes React y DOM",
+      "name": "categorías muestra enlaces navegables",
+      "success": true,
+      "skipped": false,
+      "timeMs": 4,
+      "log": []
+    },
+    {
+      "suite": "Valor base por unidad",
+      "name": "suma bases individuales, días y cantidades y conserva el historial",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    },
+    {
+      "suite": "Valor base por unidad",
+      "name": "rechaza bases negativas y fraccionarias",
+      "success": true,
+      "skipped": false,
+      "timeMs": 1,
+      "log": []
+    }
+  ]
+}

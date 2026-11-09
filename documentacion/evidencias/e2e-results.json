@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-09T15:30:56.543Z",
+  "status": "passed",
+  "checks": [
+    "public search",
+    "login",
+    "cart 90000",
+    "rejected payment preserves data",
+    "successful checkout",
+    "reload persistence",
+    "user history separation",
+    "admin create edit cancel delete",
+    "return restores stock",
+    "mobile navigation"
+  ],
+  "responsive": [
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/catalogo",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/categorias",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/ofertas",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/login",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/catalogo",
+      "width": 768,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "alcance": "Evidencia histórica del catálogo inicial de seis equipos, anterior a las 14 fotos y a los valores base. No constituye una ejecución E2E de la versión final."
+}
